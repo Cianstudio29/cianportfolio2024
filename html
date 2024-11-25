@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explosion Animation</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <svg class="circle-svg" viewBox="0 0 500 500">
+      <!-- 初始的圓形 -->
+      <circle id="circle" cx="250" cy="250" r="120" fill="black" />
+      <!-- 新的爆炸圖形 -->
+      <polygon id="explosion" points="117.74 217.73 112.7 314.12 180.1 251.29 215.7 350.51 258.25 290.02 332.67 346.71 367.35 278.96 436.66 297.11 398.31 229.17 483.69 215.06 394.23 149.63 453.08 73.79 341.36 97.42 305.39 0 252.22 84.52 149.44 20.07 153.66 80.91 73.41 34.25 94.64 130.48 0 180.15 117.74 217.73" fill="black" visibility="hidden" />
+    </svg>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
