@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.container {
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+
+.circle-svg {
+  width: 100%;
+  height: 100%;
+}
+
+#explosion {
+  transform-origin: center; /* 確保以圓心為基準縮放 */
+  transform: translateY(60px); /* 向下移動 60px */
+}
